@@ -1,0 +1,63 @@
+/* Page spacing */
+body {
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+    margin: 25px;
+    font-family: Arial, sans-serif;
+}
+
+/* Parent container – side-by-side cards */
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Single card */
+.project {
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 230px;
+    padding: 20px;
+    border: 3px solid rgb(22, 140, 138);
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+/* Top row inside card */
+.top {
+    gap: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Avatar image */
+.top img {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+/* Text spacing inside card */
+.project h2,
+.project h3,
+.project h4 {
+    margin: 6px 0;
+}
+
+/* Apply button */
+.project button {
+    margin-top: 10px;
+    padding: 6px 10px;
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+}
+
+.but:hover {
+    opacity: 0.9;
+}

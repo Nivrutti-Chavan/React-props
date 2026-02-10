@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from './assets/card'
-import User from './assets/user'
+
 
 const App = () => {
   const jobs = [
